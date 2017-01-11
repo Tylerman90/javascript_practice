@@ -1,6 +1,11 @@
-var age = 9;
-if (age<10) {
-	alert("less than 10")
-} else {
-	console.log("variable age " +  age + " was greater than 10")
+function opendoor(num){
+	if (num == 1) {
+		console.log("you won nothing");
+	}	else if (num == 2) {
+		console.log("you won beats")
+	}	else if (num == 3) {
+		console.log("you won nothing")
+	}	else {
+		console.log("you're an idiot")
+	}
 }
